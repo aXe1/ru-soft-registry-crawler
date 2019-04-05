@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ru-soft-registry-crawler"
+version = "0.1.0"
+description = "Scrapy web crawler for [Unifed Registry of Russian software and databases](https://reestr.digital.gov.ru/reestr/)."
+authors = ["Maxim Sokolovsky <axe0di1@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+scrapy = "^1.6"
+dateparser = "^0.7.1"
+pywin32 = "^224.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
